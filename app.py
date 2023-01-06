@@ -33,7 +33,7 @@ def search(category, query):
 
 
 
-st.title('Bienvenue sur mon streamlit qui utilise une API starwars et je suis friand de titre très long comme vous pouvez le constater')
+st.title('Croissant au jambon')
 
 # Créer un menu déroulant pour sélectionner la catégorie de recherche
 st.sidebar.title("Options de recherche")
