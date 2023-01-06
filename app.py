@@ -8,7 +8,7 @@ import requests
 html = '''
 <style>
 body {
-  background-image: url("https://i.imgur.com/j6ReDyq.jpeg");
+  background-image: url("https://cdn.pixabay.com/photo/2017/02/07/16/20/star-wars-2046374_960_720.jpg");
   background-size: cover;
 }
 </style>
