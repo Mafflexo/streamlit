@@ -6,7 +6,7 @@ import requests
 
 
 st.markdown(
-    """
+    f"""
     <style>
     .reportview-container .main .block-container{{
         background-image: url("https://i.imgur.com/j6ReDyq.jpeg");
