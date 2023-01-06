@@ -44,5 +44,5 @@ query = st.sidebar.text_input("Entrez votre recherche")
 if query:
   results = search(category, query)
   st.title(f"Résultats de la recherche pour '{query}' dans la catégorie '{category}' :")
-  for result in results:
-    st.markdown(f"- **{result['name']}**")
+  #for result in results:
+    #st.markdown(f"- **{result['name']}**")
