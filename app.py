@@ -33,7 +33,7 @@ def search(category, query):
 
 
 
-st.title('Croissant au jambon')
+#st.title('Croissant au jambon')
 
 # Créer un menu déroulant pour sélectionner la catégorie de recherche
 st.sidebar.title("Options de recherche")
