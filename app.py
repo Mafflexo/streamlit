@@ -14,6 +14,18 @@ def search(category, query):
 
   return results
 
+st.markdown(
+    """
+    <style>
+    .reportview-container .main .block-container{{
+        background-image: url("https://i.imgur.com/j6ReDyq.jpeg");
+        background-size: cover;
+    }}
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 
 st.title('Bienvenue sur mon streamlit qui utilise une API starwars et je suis friand de titre très long comme vous pouvez le constater')
 
