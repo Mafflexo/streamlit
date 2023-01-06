@@ -5,11 +5,12 @@ import requests
 
 
 
+image_url = "https://i.imgur.com/j6ReDyq.jpeg"
 st.markdown(
     f"""
     <style>
     .reportview-container .main .block-container{{
-        background-image: url("https://i.imgur.com/j6ReDyq.jpeg");
+        background-image: url("{image_url}");
         background-size: cover;
     }}
     </style>
