@@ -5,18 +5,16 @@ import requests
 
 
 
-image_url = "https://i.imgur.com/j6ReDyq.jpeg"
-st.markdown(
-    f"""
-    <style>
-    .reportview-container .main .block-container{{
-        background-image: url("{image_url}");
-        background-size: cover;
-    }}
-    </style>
-    """,
-    unsafe_allow_html=True,
-)
+page_bg_img = '''
+<style>
+body {
+background-image: url("https://i.imgur.com/j6ReDyq.jpeg");
+background-size: cover;
+}
+</style>
+'''
+
+st.markdown(page_bg_img, unsafe_allow_html=True)
 # Fonction pour réaliser une recherche avec l'API SWAPI
 def search(category, query):
   # Construire l'URL de l'API en fonction de la catégorie et de la requête
