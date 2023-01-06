@@ -1,6 +1,21 @@
 import streamlit as st
 import requests
 
+
+
+
+
+st.markdown(
+    """
+    <style>
+    .reportview-container .main .block-container{{
+        background-image: url("https://i.imgur.com/j6ReDyq.jpeg");
+        background-size: cover;
+    }}
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
 # Fonction pour réaliser une recherche avec l'API SWAPI
 def search(category, query):
   # Construire l'URL de l'API en fonction de la catégorie et de la requête
@@ -14,17 +29,7 @@ def search(category, query):
 
   return results
 
-st.markdown(
-    """
-    <style>
-    .reportview-container .main .block-container{{
-        background-image: url("https://i.imgur.com/j6ReDyq.jpeg");
-        background-size: cover;
-    }}
-    </style>
-    """,
-    unsafe_allow_html=True,
-)
+
 
 
 st.title('Bienvenue sur mon streamlit qui utilise une API starwars et je suis friand de titre très long comme vous pouvez le constater')
