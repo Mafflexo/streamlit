@@ -12,10 +12,10 @@ def search(keyword, category):
         return []
 
 def display_results(results):
-for result in results:
-    name = result['name']
-    st.write(f"Nom : {name}")
-    for key, value in result.items():
-        if key != "name":
-            st.write(f"{key.capitalize()} : {value}")
-    st.write("---")
+    for result in results:
+        name = result['name']
+        st.write(f"Nom : {name}")
+        for key, value in result.items():
+            if key != "name":
+                st.write(f"{key.capitalize()} : {value}")
+        st.write("---")
