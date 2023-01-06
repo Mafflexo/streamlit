@@ -14,6 +14,9 @@ def search(category, query):
 
   return results
 
+
+st.title('Bienvenue sur mon streamlit qui utilise une API starwars et je suis friand de titre très long comme vous pouvez le constater')
+
 # Créer un menu déroulant pour sélectionner la catégorie de recherche
 st.sidebar.title("Options de recherche")
 category = st.sidebar.selectbox("Choisissez une catégorie", ["people", "planets", "starships"])
